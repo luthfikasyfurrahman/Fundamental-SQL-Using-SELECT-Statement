@@ -1,0 +1,18 @@
+#Mengambil Seluruh Kolom dalam suatu Tabel#
+SELECT * FROM ms_produk;
+
+#Mengambil Satu Kolom dari Tabel#
+SELECT nama_produk From ms_produk;
+
+#Mengambil Lebih dari Satu Kolom dari Tabel#
+SELECT
+    nama_produk,
+    harga
+FROM
+    ms_produk;
+    
+#Membatasi Pengambilan Jumlah Row Data#
+SELECT nama_produk,harga FROM ms_produk LIMIT 5;
+
+#Penggunaan SELECT DISTINCT statement#
+SELECT DISTINCT nama_customer, alamat FROM ms_pelanggan ;
